@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
             `;
             contentItem.addEventListener('click', () => {
                 localStorage.setItem('selectedContent', JSON.stringify(item));
-                window.location.href = '/details.html';
+                window.location.href = 'details.html';
             });
             container.appendChild(contentItem);
         });
